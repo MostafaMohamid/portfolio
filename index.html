@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mostafa Mohamed — Front-End Developer (React.js)</title>
+  <meta name="description"
+    content="Portfolio of Mostafa Mohamed, a front-end developer in Maadi, Cairo, working with React.js, Next.js and TypeScript." />
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <meta property="og:title" content="Mostafa Mohamed — Front-End Developer (React.js)" />
+  <meta property="og:description" content="React.js, Next.js and TypeScript developer based in Maadi, Cairo." />
+  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#07060f" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+  <div id="loader">
+    <div class="loader-mark">MM</div>
+    <div class="loader-track">
+      <div class="loader-fill"></div>
+    </div>
+    <div class="loader-note">Front-End Developer · React.js</div>
+  </div>
+
+  <div id="dot"></div>
+  <div id="ring"></div>
+  <div class="glowfield"></div>
+  <canvas id="net"></canvas>
+
+  <header class="nav">
+    <div class="nav-in">
+      <a href="#top" class="brand">Mostafa Mohamed<span>.</span></a>
+      <nav class="nav-links">
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="rv-l">
+        <span class="tag"><i></i> Open to front-end roles · Maadi, Cairo</span>
+        <h1 class="display">Mostafa<br>Mohamed</h1>
+        <p class="role">Front-End Developer — <em>React.js, Next.js, TypeScript</em></p>
+        <p class="summary">I build responsive web applications and wire them up to REST APIs. Alongside that I teach
+          front-end development, mentoring students through real projects, code reviews and technical problem-solving.
+          Currently extending into the backend with Node.js and Express.js.</p>
+        <div class="ctas">
+          <a class="btn btn-a" href="#projects">See my work</a>
+          <a class="btn btn-b" href="mailto:mostafamohamed.workout@gmail.com">Get in touch</a>
+        </div>
+      </div>
+      <div class="card3d-wrap rv-r">
+        <div class="orb"></div>
+        <div class="card3d">
+          <div class="avatar"><b>MM</b></div>
+          <h3>Mostafa Mohamed</h3>
+          <p>Front-End Developer (React.js)</p>
+          <div class="stats">
+            <div><b>3+</b><span>shipped projects</span></div>
+            <div><b>2</b><span>mentoring roles</span></div>
+            <div><b>25+</b><span>tools &amp; technologies</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MARQUEE -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span><i>◆</i>IGS Training Program</span><span><i>◆</i>CIC</span><span><i>◆</i>Route
+          Academy</span><span><i>◆</i>Link — FCIH</span><span><i>◆</i>Helwan University</span><span><i>◆</i>Mahara
+          Tech</span>
+        <span><i>◆</i>IGS Training Program</span><span><i>◆</i>CIC</span><span><i>◆</i>Route
+          Academy</span><span><i>◆</i>Link — FCIH</span><span><i>◆</i>Helwan University</span><span><i>◆</i>Mahara
+          Tech</span>
+      </div>
+    </div>
+
+    <!-- SKILLS -->
+    <section id="skills">
+      <p class="eyebrow rv">What I work with</p>
+      <h2 class="title rv">Skills</h2>
+      <p class="lede rv">Front-end first — React and its ecosystem — with enough backend, database and tooling knowledge
+        to build and debug a full feature end to end.</p>
+
+      <div class="bars">
+        <div class="bar rv">
+          <div class="bar-head"><b>React.js &amp; React Hooks</b><span>92%</span></div>
+          <div class="track">
+            <div class="fill" data-w="92"></div>
+          </div>
+        </div>
+        <div class="bar rv">
+          <div class="bar-head"><b>JavaScript (ES6)</b><span>90%</span></div>
+          <div class="track">
+            <div class="fill" data-w="90"></div>
+          </div>
+        </div>
+        <div class="bar rv">
+          <div class="bar-head"><b>HTML5 &amp; CSS</b><span>93%</span></div>
+          <div class="track">
+            <div class="fill" data-w="93"></div>
+          </div>
+        </div>
+        <div class="bar rv">
+          <div class="bar-head"><b>Next.js</b><span>85%</span></div>
+          <div class="track">
+            <div class="fill" data-w="85"></div>
+          </div>
+        </div>
+        <div class="bar rv">
+          <div class="bar-head"><b>TypeScript</b><span>82%</span></div>
+          <div class="track">
+            <div class="fill" data-w="82"></div>
+          </div>
+        </div>
+        <div class="bar rv">
+          <div class="bar-head"><b>Redux Toolkit</b><span>84%</span></div>
+          <div class="track">
+            <div class="fill" data-w="84"></div>
+          </div>
+        </div>
+        <div class="bar rv">
+          <div class="bar-head"><b>Tailwind CSS &amp; Bootstrap</b><span>88%</span></div>
+          <div class="track">
+            <div class="fill" data-w="88"></div>
+          </div>
+        </div>
+        <div class="bar rv">
+          <div class="bar-head"><b>REST APIs &amp; HTTP</b><span>87%</span></div>
+          <div class="track">
+            <div class="fill" data-w="87"></div>
+          </div>
+        </div>
+        <div class="bar rv">
+          <div class="bar-head"><b>Node.js &amp; Express.js</b><span>70%</span></div>
+          <div class="track">
+            <div class="fill" data-w="70"></div>
+          </div>
+        </div>
+        <div class="bar rv">
+          <div class="bar-head"><b>SQL (MySQL) &amp; MongoDB</b><span>72%</span></div>
+          <div class="track">
+            <div class="fill" data-w="72"></div>
+          </div>
+        </div>
+        <div class="bar rv">
+          <div class="bar-head"><b>Git / GitHub</b><span>88%</span></div>
+          <div class="track">
+            <div class="fill" data-w="88"></div>
+          </div>
+        </div>
+        <div class="bar rv">
+          <div class="bar-head"><b>Algorithms &amp; Data Structures</b><span>75%</span></div>
+          <div class="track">
+            <div class="fill" data-w="75"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="chips rv">
+        <span class="chip">HTML5</span><span class="chip">CSS</span><span class="chip">JavaScript</span><span
+          class="chip">ES6</span>
+        <span class="chip">jQuery</span><span class="chip">TypeScript</span><span class="chip">React.js</span><span
+          class="chip">React Hooks</span>
+        <span class="chip">Redux Toolkit</span><span class="chip">Next.js</span><span class="chip">Tailwind
+          CSS</span><span class="chip">Bootstrap</span>
+        <span class="chip">Node.js</span><span class="chip">Express.js</span><span class="chip">REST APIs</span><span
+          class="chip">HTTP</span>
+        <span class="chip">SQL</span><span class="chip">SQL (MySQL)</span><span class="chip">MongoDB</span><span
+          class="chip">MongoDB Atlas</span>
+        <span class="chip">ERD</span><span class="chip">OOP</span><span class="chip">Algorithms &amp; Data
+          Structures</span>
+        <span class="chip">Git/GitHub</span><span class="chip">Postman</span><span class="chip">Docker</span>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience">
+      <p class="eyebrow rv">Where I've worked</p>
+      <h2 class="title rv">Experience</h2>
+      <p class="lede rv">Teaching front-end development has kept my own fundamentals sharp — every code review is
+        another pass over React, state management and clean code.</p>
+
+      <div class="timeline">
+        <article class="job rv">
+          <div class="job-top">
+            <div>
+              <h3>Front-End Development Instructor</h3>
+              <p class="co">IGS Training Program (delivered at CIC)</p>
+            </div>
+            <span class="when">04/2026 – 06/2026</span>
+          </div>
+          <p>Delivered front-end training focused on React and modern web development practices, mentoring students
+            through hands-on projects while providing technical guidance, code reviews and feedback to build scalable,
+            responsive and high-quality web applications.</p>
+          <div class="badges"><span class="badge">React</span><span class="badge">Modern web practices</span><span
+              class="badge">Code reviews</span><span class="badge">Hands-on projects</span><span
+              class="badge">Responsive UI</span></div>
+        </article>
+
+        <article class="job rv">
+          <div class="job-top">
+            <div>
+              <h3>Frontend Mentor</h3>
+              <p class="co">Route Academy</p>
+            </div>
+            <span class="when">09/2024 – 02/2025</span>
+          </div>
+          <p>Mentored students in HTML, CSS, JavaScript, React and Next.js. Conducted code reviews and gave technical
+            feedback, guided students through real-world projects, and taught responsive design and clean code
+            practices.</p>
+          <div class="badges"><span class="badge">HTML &amp; CSS</span><span class="badge">JavaScript</span><span
+              class="badge">React</span><span class="badge">Next.js</span><span class="badge">Responsive
+              design</span><span class="badge">Clean code</span></div>
+        </article>
+
+        <article class="job rv">
+          <div class="job-top">
+            <div>
+              <h3>Soft Skills &amp; English Instructor</h3>
+              <p class="co">Link — FCIH · Helwan, Egypt</p>
+            </div>
+            <span class="when">08/2021 – Present</span>
+          </div>
+          <p>Long-running volunteer role with the Link student organization at the Faculty of Computers and Artificial
+            Intelligence, teaching soft skills and English to students.</p>
+          <div class="badges"><span class="badge">Teaching</span><span class="badge">Communication</span><span
+              class="badge">English</span></div>
+        </article>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+      <p class="eyebrow rv">Selected work</p>
+      <h2 class="title rv">Projects</h2>
+      <p class="lede rv">Three applications built around real workflows: editorial review, online ordering, and social
+        posting.</p>
+
+      <div class="grid3">
+        <article class="proj rv">
+          <span class="emoji">📚</span>
+          <h3>Scientific Journal Application</h3>
+          <p class="meta">Graduation project · 09/2023 – 05/2024</p>
+          <p>A scientific journal platform built with React and React Bootstrap, integrating multiple APIs. It carries a
+            complete article management workflow — authors submit articles, reviewers evaluate submissions, and editors
+            publish approved content.</p>
+          <div class="tags"><span>React</span><span>React Bootstrap</span><span>REST APIs</span><span>Role-based
+              workflow</span></div>
+        </article>
+
+        <article class="proj rv">
+          <span class="emoji">🛒</span>
+          <h3>E-commerce Application</h3>
+          <p class="meta">Online ordering platform</p>
+          <p>A responsive shopping platform with wishlist, cart, order tracking and payments. Stripe is integrated as
+            the payment gateway, with product and order data served over REST APIs.</p>
+          <div class="tags"><span>React</span><span>Stripe</span><span>REST APIs</span><span>Responsive</span><span>Cart
+              &amp; orders</span></div>
+        </article>
+
+        <article class="proj rv">
+          <span class="emoji">💬</span>
+          <h3>Linked Posts</h3>
+          <p class="meta">Social media application</p>
+          <p>A social app built with Next.js and TypeScript, covering authentication and profile management. Posts,
+            comments and user data come from REST APIs, with application state managed through Redux Toolkit.</p>
+          <div class="tags"><span>Next.js</span><span>TypeScript</span><span>Redux
+              Toolkit</span><span>Auth</span><span>REST APIs</span></div>
+        </article>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education">
+      <p class="eyebrow rv">Background</p>
+      <h2 class="title rv">Education &amp; languages</h2>
+      <p class="lede rv">A computing degree from Helwan University, plus focused React training.</p>
+
+      <div class="grid2">
+        <div class="rv-l">
+          <div class="pane" style="margin-bottom:22px">
+            <h3>B.Sc., Information Systems</h3>
+            <p class="co">Faculty of Computers and Artificial Intelligence, Helwan University</p>
+            <p class="when">10/2020 – 06/2024</p>
+            <span class="score">GPA 2.9</span>
+          </div>
+          <div class="pane">
+            <h3 style="margin-bottom:12px">Courses &amp; certifications</h3>
+            <div class="cert"><b>Front-End (React)</b><span>Route Academy</span></div>
+            <div class="cert"><b>React</b><span>Mahara Tech</span></div>
+          </div>
+        </div>
+
+        <div class="pane rv rv-r">
+          <h3>Languages &amp; status</h3>
+          <div class="lang">
+            <div class="lang-badge"><b>Arabic</b><span>Native</span></div>
+            <div class="lang-badge"><b>English</b><span>Professional</span></div>
+          </div>
+          <p style="color:var(--muted);font-size:.9rem;margin-top:20px">Military service completed.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <p class="eyebrow rv">Say hello</p>
+      <h2 class="title rv">Let's build something</h2>
+      <p class="lede rv">Available for front-end roles and freelance work. The fastest way to reach me is email.</p>
+
+      <div class="contact-wrap">
+        <div class="rv-l">
+          <a class="ci" href="mailto:mostafamohamed.workout@gmail.com"><span
+              class="ico">✉️</span><span><small>Email</small><b>mostafamohamed.workout@gmail.com</b></span></a>
+          <a class="ci" href="tel:+201126717769"><span class="ico">📞</span><span><small>Phone</small><b>+20 112 671
+                7769</b></span></a>
+          <a class="ci" href="https://www.linkedin.com/in/mostafahassanien" target="_blank" rel="noopener"><span
+              class="ico">in</span><span><small>LinkedIn</small><b>mostafahassanien</b></span></a>
+          <a class="ci" href="https://github.com/MostafaMohamid" target="_blank" rel="noopener"><span
+              class="ico">⌁</span><span><small>GitHub</small><b>MostafaMohamid</b></span></a>
+          <div class="ci"><span class="ico">📍</span><span><small>Location</small><b>Maadi, Cairo, Egypt</b></span>
+          </div>
+          <div class="ci"><span class="ico">✅</span><span><small>Availability</small><b>Open to new
+                opportunities</b></span></div>
+        </div>
+        <div class="ripple-wrap rv rv-r">
+          <div class="ring"></div>
+          <div class="ring"></div>
+          <div class="ring"></div>
+          <div class="ripple-core">MM</div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>Mostafa Mohamed — Front-End Developer (React.js) · Maadi, Cairo</footer>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
